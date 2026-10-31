@@ -4,7 +4,7 @@ Static site (HTML/CSS/JS + GSAP). Cloned from the Drishya & Hardeep reference an
 Deploy by uploading this whole folder to GitHub Pages, Netlify, Vercel or Hostinger (`index.html` at the root).
 
 ## Before you publish — 4 things to fill in
-1. **Social-share URLs** — in `index.html` replace every `https://YOUR-DOMAIN.example/` (og:url, og:image, twitter:image) with the real site URL. `og-image.jpg` (1200×630) is included.
+1. **Social-share URLs** — already set to https://rohith-vismaya.vercel.app/ (change them in the `<head>` of `index.html` if the domain changes).
 2. **Verified map links** — near `MAP_URLS` in the script, paste the exact Google Maps share link for each venue. Until then the "Directions" buttons open a Google Maps *search* by venue name (no coordinates were invented). Please check the embedded maps show the right places.
 3. **RSVP** — the section is commented out in `index.html` (search "RSVP section temporarily disabled"). Re-enable it with `RSVP_SETUP.md` when ready.
 4. **Music** — add your own licensed instrumental as `music/song.mp3`. No music is bundled.
